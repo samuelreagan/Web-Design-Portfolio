@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Sidebar Navigation -->
+    <header class="sidebar-nav">
+      <a href="index.html"><i class="fa fa-envira"></i></a>
+      <nav>
+        <ul>
+          <li><a href="#home-sect">Home</a></li>
+          <li><a href="#about-sect">About Me</a></li>
+          <li><a href="#services-sect">Services</a></li>
+          <li><a href="#portfolio-sect">Portfolio</a></li>
+          <li><a href="#contact-sect">Contact Me</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-github-square"></i></a>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+      </div>
+    </header>
+    <!-- Banner 1 - Home -->
+    <section class="banner home" id="home-sect">
+      <h1><span class="highlight">John's</span> Web Design Porfolio</h1>
+    </section>
+    <!-- Banner 2 - About Me -->
+    <section id="about-sect" class="banner about-me">
+      <h2 class="section-header">About Me</h2>
+      <img class="about-img" src="images/about-me.jpg" alt="John Smith">
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Nam, beatae? Laborum ipsa, iste, omnis vero nobis consequuntur
+        iusto consectetur atque odio ducimus recusandae rerum autem harum!
+        Porro omnis inventore harum.
+      </p>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Nam, beatae? Laborum ipsa, iste, omnis vero nobis consequuntur
+        iusto consectetur atque odio ducimus recusandae rerum autem harum!
+        Porro omnis inventore harum.
+      </p>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Nam, beatae? Laborum ipsa, iste, omnis vero nobis consequuntur
+        iusto consectetur atque odio ducimus recusandae rerum autem harum!
+        Porro omnis inventore harum.
+      </p>
+    </section>
+    <!-- Banner 3 - Services -->
+    <section id="services-sect" class="banner services">
+      <h2 class="section-header">Services</h2>
+      <div class="column">
+        <i class="fa fa-desktop"></i>
+        <h2 class="subtitle">Web Design</h2>
+        <p class="col-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Nam, beatae? Laborum ipsa, iste, omnis vero nobis consequuntur
+          iusto consectetur atque odio ducimus recusandae rerum autem harum!
+          Porro omnis inventore harum.
+        </p>
+      </div>
+      <div class="column">
+        <i class="fa fa-edit"></i>
+        <h2 class="subtitle">Graphic Design</h2>
+        <p class="col-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Nam, beatae? Laborum ipsa, iste, omnis vero nobis consequuntur
+          iusto consectetur atque odio ducimus recusandae rerum autem harum!
+          Porro omnis inventore harum.
+        </p>
+      </div>
+      <div class="column">
+        <i class="fa fa-camera"></i>
+        <h2 class="subtitle">Photography</h2>
+        <p class="col-text">Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Nam, beatae? Laborum ipsa, iste, omnis vero nobis consequuntur
+          iusto consectetur atque odio ducimus recusandae rerum autem harum!
+          Porro omnis inventore harum.
+        </p>
+      </div>
+    </section>
+    <!-- Banner 4 - Portfolio -->
+    <section class="banner portfolio" id="portfolio-sect">
+      <h2 class="section-header">Portfolio</h2>
+      <div class="portfolio-wrapper">
+        <div class="img-container">
+          <a href="#"><img class="portfolio-img" src="images/website-1.jpg">
+          <p class="website-title">Website Title</p></a>
+        </div>
+        <div class="img-container">
+          <a href="#"><img class="portfolio-img" src="images/website-1.jpg">
+          <p class="website-title">Website Title</p></a>
+        </div>
+        <div class="img-container">
+          <a href="#"><img class="portfolio-img" src="images/website-1.jpg">
+          <p class="website-title">Website Title</p></a>
+        </div>
+        <div class="img-container">
+          <a href="#"><img class="portfolio-img" src="images/website-1.jpg">
+          <p class="website-title">Website Title</p></a>
+        </div>
+        <div class="img-container">
+          <a href="#"><img class="portfolio-img" src="images/website-1.jpg">
+          <p class="website-title">Website Title</p></a>
+        </div>
+        <div class="img-container">
+          <a href="#"><img class="portfolio-img" src="images/website-1.jpg">
+          <p class="website-title">Website Title</p></a>
+        </div>
+      </div>
+    </section>
+    <!-- Banner 5 - Contact Me -->
+    <section class="banner contact" id="contact-sect">
+      <h2 class="section-header">Contact Me</h2>
+      <form action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Name or Buisness" required>
+        <br>
+        <input type="text" name="email" placeholder="Email" required>
+        <br>
+        <textarea name="Message" placeholder="Enter message here..."></textarea>
+        <br>
+        <input id="submit-button" type="submit" name"submit" value="Send Message">
+      </form>
+      <p class="email-note">You can also email me at: <a href="mailto:johnthedesigner@gmail.com">johnthedesigner@gmail.com</a></p>
+    </section>
+  </body>
+</html>
